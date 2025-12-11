@@ -2,24 +2,22 @@
 
 Introduction to Arrays Data Structure in Python.
 
-
-
 ## What is an Array ?
 
 - An arrays is defined as a `Storage` or `Container` or similar items placed in `Contiguous` memory locations.
 
 Example -> Storing `Books` in a `Bookshelf` where each book is placed next to each other (`Contiguous`).
 
-## Implementing Arrays in Python.
+## Implementing Arrays in Python
 
 - Two ways to implement Arrays in Python.
 
   1. Using `List` data structure.
   
-   - `Can store heterogeneous data types.`
-   
+  - `Can store heterogeneous data types.`
+
      Example ->
-     
+
      ```python
      # Creating an array using list
      my_array = [1, 2, 3, 4, 5]
@@ -31,7 +29,7 @@ Example -> Storing `Books` in a `Bookshelf` where each book is placed next to ea
   - `Can only store homogeneous data types.`
 
      Example ->
-     
+
      ```python
      import array as arr
      
@@ -39,10 +37,11 @@ Example -> Storing `Books` in a `Bookshelf` where each book is placed next to ea
      my_array = arr.array('i', [1, 2, 3, 4, 5])
      print(my_array)
      ```
+
    3. Using `Numpy` Arrays.
   
       Example ->
-      
+
       ```python
       import numpy as np
       
@@ -78,6 +77,7 @@ my_array = [10, 20, 30, 40, 50]
 print(my_array[0])  # Output: 10
 print(my_array[2])  # Output: 30
 ```
+
 - `Negative Indexing` -> The last element of the array is at index `-1`, the second last element is at index `-2`, and so on.
 
 Example ->
@@ -99,8 +99,7 @@ my_array = [10, 20, 30, 40, 50]
 print(my_array[1:4])  # Output: [20, 30, 40]
 print(my_array[:3])   # Output: [10, 20, 30]  
 print(my_array[2:])   # Output: [30, 40, 50]
-``` 
-
+```
 
 ## Sorting Arrays
 
@@ -114,7 +113,7 @@ my_array.sort()  # Sort in ascending order
 print(my_array)  # Output: [10, 20, 30, 40, 50]
 my_array.sort(reverse=True)  # Sort in descending order
 print(my_array)  # Output: [50, 40, 30, 20, 10]
-``` 
+```
 
 # Hands on
 
