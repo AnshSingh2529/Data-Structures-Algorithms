@@ -161,7 +161,7 @@ class DoublyLinkedList:
 
    def traverse_backward(self):
        """Traverse and print the list in backward direction"""
-       current = self.head
+       current = self.head  
        if not current:
            print("None")
            return
